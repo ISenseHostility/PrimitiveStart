@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "primitivestart:items/reinforced_bone_axe"
+  }
+}

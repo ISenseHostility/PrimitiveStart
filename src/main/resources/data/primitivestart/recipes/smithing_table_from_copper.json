@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx",
+    "yy",
+    "yy"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    "y":
+    {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result":
+  {
+    "item": "minecraft:smithing_table",
+    "count": 1
+  }
+}

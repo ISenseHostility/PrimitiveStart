@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "primitivestart:bone_shovel"
+  },
+  "addition": {
+    "item": "minecraft:raw_copper"
+  },
+  "result": {
+    "item": "primitivestart:reinforced_bone_shovel"
+  }
+}

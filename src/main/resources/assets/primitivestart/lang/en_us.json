@@ -1,0 +1,16 @@
+{
+  "item.primitivestart.bone_sword": "Bone Sword",
+  "item.primitivestart.bone_pickaxe": "Bone Pickaxe",
+  "item.primitivestart.bone_axe": "Bone Axe",
+  "item.primitivestart.bone_shovel": "Bone Shovel",
+  "item.primitivestart.bone_hoe": "Bone Hoe",
+
+  "item.primitivestart.bone_shears": "Bone Shears",
+  "item.primitivestart.bone_arrow": "Bone Arrow",
+
+  "item.primitivestart.reinforced_bone_sword": "Reinforced Bone Sword",
+  "item.primitivestart.reinforced_bone_pickaxe": "Reinforced Bone Pickaxe",
+  "item.primitivestart.reinforced_bone_axe": "Reinforced Bone Axe",
+  "item.primitivestart.reinforced_bone_shovel": "Reinforced Bone Shovel",
+  "item.primitivestart.reinforced_bone_hoe": "Reinforced Bone Hoe"
+}

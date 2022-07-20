@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "x",
+    "y"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:bone"
+    },
+    "y":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "primitivestart:bone_sword",
+    "count": 1
+  }
+}
