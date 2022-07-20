@@ -17,7 +17,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
-import net.minecraftforge.event.world.BlockEvent;
+import net.minecraftforge.event.level.BlockEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
@@ -30,15 +30,15 @@ public class ForgeCommon {
 
     @SubscribeEvent
     public static void onEntityKilled(final LivingDropsEvent event) {
-        if (event.getEntityLiving() instanceof Animal && random.nextBoolean()) {
-            ItemEntity item = new ItemEntity(event.getEntityLiving().level, event.getEntityLiving().getX(), event.getEntityLiving().getY(), event.getEntityLiving().getZ(), new ItemStack(Items.BONE));
+        if (event.getEntity() instanceof Animal && random.nextBoolean()) {
+            ItemEntity item = new ItemEntity(event.getEntity().level, event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(), new ItemStack(Items.BONE));
             event.getDrops().add(item);
         }
     }
 
     @SubscribeEvent
     public static void onBlockHit(final PlayerInteractEvent.LeftClickBlock event) {
-        if (!event.getPlayer().isCreative() && !event.getItemStack().isCorrectToolForDrops(Blocks.OAK_LOG.defaultBlockState()) && event.getWorld().getBlockState(event.getPos()).is(BlockTags.create(new ResourceLocation("minecraft:logs")))) event.setCanceled(true);
+        if (!event.getEntity().isCreative() && !event.getItemStack().isCorrectToolForDrops(Blocks.OAK_LOG.defaultBlockState()) && event.getLevel().getBlockState(event.getPos()).is(BlockTags.create(new ResourceLocation("minecraft:logs")))) event.setCanceled(true);
     }
 
     @SubscribeEvent
@@ -59,7 +59,7 @@ public class ForgeCommon {
                 item.setItem(new ItemStack(Items.STICK));
                 item.setPos(Vec3.atCenterOf(event.getPos()));
 
-                event.getWorld().addFreshEntity(item);
+                event.getLevel().addFreshEntity(item);
             }
         }
     }
