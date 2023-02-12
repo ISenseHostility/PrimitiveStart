@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "primitivestart:bone_arrow"
+    "primitivestart:bone_arrow",
+    "primitivestart:reinforced_bone_arrow"
   ]
 }

@@ -3,16 +3,16 @@ package isensehostility.primitivestart.event;
 import isensehostility.primitivestart.PrimitiveStart;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.tags.ItemTags;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.animal.Chicken;
 import net.minecraft.world.entity.item.ItemEntity;
-import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ShearsItem;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
@@ -21,16 +21,12 @@ import net.minecraftforge.event.level.BlockEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-import java.util.Random;
-
 @Mod.EventBusSubscriber(modid = PrimitiveStart.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class ForgeCommon {
 
-    private static final Random random = new Random();
-
     @SubscribeEvent
     public static void onEntityKilled(final LivingDropsEvent event) {
-        if (event.getEntity() instanceof Animal && random.nextBoolean()) {
+        if (event.getEntity() instanceof Animal animal && animal.getRandom().nextBoolean()) {
             ItemEntity item = new ItemEntity(event.getEntity().level, event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(), new ItemStack(Items.BONE));
             event.getDrops().add(item);
         }
@@ -54,12 +50,15 @@ public class ForgeCommon {
     @SubscribeEvent
     public static void onBlockBroken(BlockEvent.BreakEvent event) {
         if (event.getState().is(BlockTags.create(new ResourceLocation("minecraft:leaves")))) {
-            if (random.nextInt(100) + 1 < 15) {
-                ItemEntity item = new ItemEntity(EntityType.ITEM, event.getPlayer().level);
+            Player player = event.getPlayer();
+            Level level = player.getLevel();
+
+            if (player.getRandom().nextInt(100) + 1 < 15) {
+                ItemEntity item = new ItemEntity(EntityType.ITEM, level);
                 item.setItem(new ItemStack(Items.STICK));
                 item.setPos(Vec3.atCenterOf(event.getPos()));
 
-                event.getLevel().addFreshEntity(item);
+                level.addFreshEntity(item);
             }
         }
     }

@@ -12,5 +12,8 @@
   "item.primitivestart.reinforced_bone_pickaxe": "Reinforced Bone Pickaxe",
   "item.primitivestart.reinforced_bone_axe": "Reinforced Bone Axe",
   "item.primitivestart.reinforced_bone_shovel": "Reinforced Bone Shovel",
-  "item.primitivestart.reinforced_bone_hoe": "Reinforced Bone Hoe"
+  "item.primitivestart.reinforced_bone_hoe": "Reinforced Bone Hoe",
+
+  "item.primitivestart.reinforced_bone_shears": "Reinforced Bone Shears",
+  "item.primitivestart.reinforced_bone_arrow": "Reinforced Bone Arrow"
 }
