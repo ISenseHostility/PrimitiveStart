@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "primitivestart:bone_sword",
+    "primitivestart:bone_pickaxe",
+    "primitivestart:bone_axe",
+    "primitivestart:bone_shovel",
+    "primitivestart:bone_hoe",
+    "primitivestart:reinforced_bone_sword",
+    "primitivestart:reinforced_bone_pickaxe",
+    "primitivestart:reinforced_bone_axe",
+    "primitivestart:reinforced_bone_shovel",
+    "primitivestart:reinforced_bone_hoe"
+  ]
+}

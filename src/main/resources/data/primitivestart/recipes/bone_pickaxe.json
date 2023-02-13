@@ -10,11 +10,11 @@
   {
     "x":
     {
-      "item": "minecraft:bone"
+      "tag": "forge:bones"
     },
     "y":
     {
-      "item": "minecraft:stick"
+      "tag": "forge:rods/wooden"
     }
   },
   "result":

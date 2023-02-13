@@ -4,7 +4,7 @@
     "item": "primitivestart:bone_hoe"
   },
   "addition": {
-    "item": "minecraft:raw_copper"
+    "tag": "forge:raw_materials/copper"
   },
   "result": {
     "item": "primitivestart:reinforced_bone_hoe"
