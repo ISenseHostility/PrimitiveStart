@@ -10,7 +10,7 @@
   {
     "x":
     {
-      "item": "minecraft:copper_ingot"
+      "tag": "forge:ingots/copper"
     },
     "y":
     {
