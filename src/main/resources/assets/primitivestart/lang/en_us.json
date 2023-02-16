@@ -15,5 +15,14 @@
   "item.primitivestart.reinforced_bone_hoe": "Reinforced Bone Hoe",
 
   "item.primitivestart.reinforced_bone_shears": "Reinforced Bone Shears",
-  "item.primitivestart.reinforced_bone_arrow": "Reinforced Bone Arrow"
+  "item.primitivestart.reinforced_bone_arrow": "Reinforced Bone Arrow",
+
+  "item.primitivestart.plated_bone_sword": "Plated Bone Sword",
+  "item.primitivestart.plated_bone_pickaxe": "Plated Bone Pickaxe",
+  "item.primitivestart.plated_bone_axe": "Plated Bone Axe",
+  "item.primitivestart.plated_bone_shovel": "Plated Bone Shovel",
+  "item.primitivestart.plated_bone_hoe": "Plated Bone Hoe",
+
+  "item.primitivestart.plated_bone_shears": "Plated Bone Shears",
+  "item.primitivestart.plated_bone_arrow": "Plated Bone Arrow"
 }

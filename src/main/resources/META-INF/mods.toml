@@ -5,7 +5,7 @@ issueTrackerURL=""
 
 [[mods]] #mandatory
 modId="primitivestart" #mandatory
-version="1.19.2-1.7.0" #mandatory
+version="1.19.2-1.8.0" #mandatory
 displayName="Primitive Start" #mandatory
 displayURL="https://www.curseforge.com/minecraft/mc-mods/primitive-start"
 logoFile="primitivestart.png" #optional

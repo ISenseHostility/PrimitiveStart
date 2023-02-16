@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "primitivestart:items/plated_bone_shovel"
+  }
+}

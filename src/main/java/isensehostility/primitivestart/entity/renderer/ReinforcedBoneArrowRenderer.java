@@ -1,7 +1,6 @@
 package isensehostility.primitivestart.entity.renderer;
 
 import isensehostility.primitivestart.PrimitiveStart;
-import isensehostility.primitivestart.entity.BoneArrow;
 import isensehostility.primitivestart.entity.ReinforcedBoneArrow;
 import net.minecraft.client.renderer.entity.ArrowRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;

@@ -2,6 +2,7 @@ package isensehostility.primitivestart.event;
 
 import isensehostility.primitivestart.PrimitiveStart;
 import isensehostility.primitivestart.entity.renderer.BoneArrowRenderer;
+import isensehostility.primitivestart.entity.renderer.PlatedBoneArrowRenderer;
 import isensehostility.primitivestart.entity.renderer.ReinforcedBoneArrowRenderer;
 import isensehostility.primitivestart.init.EntityInit;
 import net.minecraftforge.api.distmarker.Dist;
@@ -16,5 +17,6 @@ public class ClientProxy {
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(EntityInit.BONE_ARROW.get(), BoneArrowRenderer::new);
         event.registerEntityRenderer(EntityInit.REINFORCED_BONE_ARROW.get(), ReinforcedBoneArrowRenderer::new);
+        event.registerEntityRenderer(EntityInit.PLATED_BONE_ARROW.get(), PlatedBoneArrowRenderer::new);
     }
 }

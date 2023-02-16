@@ -2,6 +2,7 @@ package isensehostility.primitivestart.init;
 
 import isensehostility.primitivestart.PrimitiveStart;
 import isensehostility.primitivestart.entity.BoneArrow;
+import isensehostility.primitivestart.entity.PlatedBoneArrow;
 import isensehostility.primitivestart.entity.ReinforcedBoneArrow;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
@@ -33,5 +34,13 @@ public class EntityInit {
                     .clientTrackingRange(4)
                     .updateInterval(20)
                     .build(new ResourceLocation(PrimitiveStart.MODID, "reinforced_bone_arrow").toString())
+    );
+    public static final RegistryObject<EntityType<PlatedBoneArrow>> PLATED_BONE_ARROW = ENTITIES.register("plated_bone_arrow",
+            () -> EntityType.Builder
+                    .<PlatedBoneArrow>of(PlatedBoneArrow::new, MobCategory.MISC)
+                    .sized(0.5F, 0.5F)
+                    .clientTrackingRange(4)
+                    .updateInterval(20)
+                    .build(new ResourceLocation(PrimitiveStart.MODID, "plated_bone_arrow").toString())
     );
 }
