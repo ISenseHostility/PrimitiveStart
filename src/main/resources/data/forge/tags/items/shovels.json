@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "primitivestart:bone_shovel",
-    "primitivestart:reinforced_bone_shovel"
+    "primitivestart:reinforced_bone_shovel",
+    "primitivestart:plated_bone_shovel"
     ]
 }

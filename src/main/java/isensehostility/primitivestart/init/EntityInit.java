@@ -34,4 +34,12 @@ public class EntityInit {
                     .updateInterval(20)
                     .build(new ResourceLocation(PrimitiveStart.MODID, "reinforced_bone_arrow").toString())
     );
+    public static final RegistryObject<EntityType<PlatedBoneArrow>> PLATED_BONE_ARROW = ENTITIES.register("plated_bone_arrow",
+            () -> EntityType.Builder
+                    .<PlatedBoneArrow>of(PlatedBoneArrow::new, MobCategory.MISC)
+                    .sized(0.5F, 0.5F)
+                    .clientTrackingRange(4)
+                    .updateInterval(20)
+                    .build(new ResourceLocation(PrimitiveStart.MODID, "plated_bone_arrow").toString())
+    );
 }

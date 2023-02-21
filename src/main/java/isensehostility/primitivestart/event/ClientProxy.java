@@ -16,5 +16,6 @@ public class ClientProxy {
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(EntityInit.BONE_ARROW.get(), BoneArrowRenderer::new);
         event.registerEntityRenderer(EntityInit.REINFORCED_BONE_ARROW.get(), ReinforcedBoneArrowRenderer::new);
+        event.registerEntityRenderer(EntityInit.PLATED_BONE_ARROW.get(), PlatedBoneArrowRenderer::new);
     }
 }

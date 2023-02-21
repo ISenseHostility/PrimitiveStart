@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "primitivestart:bone_pickaxe",
-    "primitivestart:reinforced_bone_pickaxe"
+    "primitivestart:reinforced_bone_pickaxe",
+    "primitivestart:plated_bone_pickaxe"
     ]
 }
