@@ -2,6 +2,7 @@ package isensehostility.primitivestart.init;
 
 import isensehostility.primitivestart.PrimitiveStart;
 import isensehostility.primitivestart.entity.BoneArrow;
+import isensehostility.primitivestart.entity.PlatedBoneArrow;
 import isensehostility.primitivestart.entity.ReinforcedBoneArrow;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;

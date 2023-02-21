@@ -2,6 +2,7 @@ package isensehostility.primitivestart.init;
 
 import isensehostility.primitivestart.PrimitiveStart;
 import isensehostility.primitivestart.item.BoneArrowItem;
+import isensehostility.primitivestart.item.PlatedBoneArrowItem;
 import isensehostility.primitivestart.item.ReinforcedBoneArrowItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;

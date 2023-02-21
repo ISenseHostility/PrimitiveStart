@@ -2,6 +2,7 @@ package isensehostility.primitivestart.event;
 
 import isensehostility.primitivestart.PrimitiveStart;
 import isensehostility.primitivestart.entity.renderer.BoneArrowRenderer;
+import isensehostility.primitivestart.entity.renderer.PlatedBoneArrowRenderer;
 import isensehostility.primitivestart.entity.renderer.ReinforcedBoneArrowRenderer;
 import isensehostility.primitivestart.init.EntityInit;
 import net.minecraftforge.api.distmarker.Dist;
