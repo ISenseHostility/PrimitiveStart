@@ -1,5 +1,6 @@
 package isensehostility.primitivestart;
 
+import isensehostility.primitivestart.init.BlockInit;
 import isensehostility.primitivestart.init.EntityInit;
 import isensehostility.primitivestart.init.ItemInit;
 import net.minecraft.resources.ResourceLocation;
@@ -24,6 +25,7 @@ public class PrimitiveStart {
     public PrimitiveStart() {
         ItemInit.initialize();
         EntityInit.initialize();
+        BlockInit.initialize();
     }
 
     public static final TagKey<Block> COPPER_TAG = BlockTags.create(new ResourceLocation(MODID, "needs_copper_tool"));

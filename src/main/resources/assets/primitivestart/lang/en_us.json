@@ -24,5 +24,8 @@
   "item.primitivestart.plated_bone_hoe": "Plated Bone Hoe",
 
   "item.primitivestart.plated_bone_shears": "Plated Bone Shears",
-  "item.primitivestart.plated_bone_arrow": "Plated Bone Arrow"
+  "item.primitivestart.plated_bone_arrow": "Plated Bone Arrow",
+
+  "block.primitivestart.improvised_planks": "Improvised Planks",
+  "item.primitivestart.improvised_planks": "Improvised Planks"
 }
