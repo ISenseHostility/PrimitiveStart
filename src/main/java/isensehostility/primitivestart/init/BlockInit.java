@@ -3,6 +3,7 @@ package isensehostility.primitivestart.init;
 import isensehostility.primitivestart.PrimitiveStart;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -19,6 +20,6 @@ public class BlockInit {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
-    public static final RegistryObject<Block> IMPROVISED_PLANKS = BLOCKS.register("improvised_planks", () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final RegistryObject<Block> IMPROVISED_PLANKS = BLOCKS.register("improvised_planks", () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Item> IMPROVISED_PLANKS_ITEM = ITEMS.register("improvised_planks", () -> new BlockItem(IMPROVISED_PLANKS.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 }
