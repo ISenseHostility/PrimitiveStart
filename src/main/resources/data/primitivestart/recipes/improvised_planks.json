@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx",
+    "xx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result":
+  {
+    "item": "primitivestart:improvised_planks",
+    "count": 1
+  }
+}

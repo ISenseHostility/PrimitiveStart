@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx",
+    "xx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "primitivestart:improvised_planks"
+    }
+  },
+  "result":
+  {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}
