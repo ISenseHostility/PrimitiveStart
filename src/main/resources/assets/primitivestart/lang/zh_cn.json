@@ -1,0 +1,31 @@
+{
+  "item.primitivestart.bone_sword": "骨剑",
+  "item.primitivestart.bone_pickaxe": "骨镐",
+  "item.primitivestart.bone_axe": "骨斧",
+  "item.primitivestart.bone_shovel": "骨锹",
+  "item.primitivestart.bone_hoe": "骨锄",
+
+  "item.primitivestart.bone_shears": "骨剪刀",
+  "item.primitivestart.bone_arrow": "骨箭",
+
+  "item.primitivestart.reinforced_bone_sword": "强化骨剑",
+  "item.primitivestart.reinforced_bone_pickaxe": "强化骨镐",
+  "item.primitivestart.reinforced_bone_axe": "强化骨斧",
+  "item.primitivestart.reinforced_bone_shovel": "强化骨锹",
+  "item.primitivestart.reinforced_bone_hoe": "强化骨锄",
+
+  "item.primitivestart.reinforced_bone_shears": "强化剪刀",
+  "item.primitivestart.reinforced_bone_arrow": "强化骨箭",
+
+  "item.primitivestart.plated_bone_sword": "镀金骨剑",
+  "item.primitivestart.plated_bone_pickaxe": "镀金骨镐",
+  "item.primitivestart.plated_bone_axe": "镀金骨斧",
+  "item.primitivestart.plated_bone_shovel": "镀金骨锹",
+  "item.primitivestart.plated_bone_hoe": "镀金骨锄",
+
+  "item.primitivestart.plated_bone_shears": "镀金剪刀",
+  "item.primitivestart.plated_bone_arrow": "镀金骨箭",
+
+  "block.primitivestart.improvised_planks": "简易木板",
+  "item.primitivestart.improvised_planks": "简易木板"
+}
