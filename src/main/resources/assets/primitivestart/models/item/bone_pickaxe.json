@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "primitivestart:items/bone_pickaxe"
+    "layer0": "primitivestart:item/bone_pickaxe"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "primitivestart:items/reinforced_bone_arrow"
+    "layer0": "primitivestart:item/reinforced_bone_arrow"
   }
 }

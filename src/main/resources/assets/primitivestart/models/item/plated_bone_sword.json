@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "primitivestart:items/plated_bone_sword"
+    "layer0": "primitivestart:item/plated_bone_sword"
   }
 }

@@ -3,7 +3,6 @@ package isensehostility.primitivestart.event;
 import isensehostility.primitivestart.PrimitiveStart;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.animal.Chicken;
@@ -42,7 +41,7 @@ public class ForgeCommon {
         ItemStack stack = event.getItemStack();
         if (event.getTarget() instanceof Chicken chicken && stack.getItem() instanceof ShearsItem && chicken.hurtTime == 0 && chicken.isAlive()) {
             chicken.spawnAtLocation(new ItemStack(Items.FEATHER));
-            chicken.hurt(DamageSource.GENERIC, 1);
+            chicken.hurt(chicken.damageSources().generic(), 1);
             stack.setDamageValue(stack.getDamageValue() + 1);
         }
     }

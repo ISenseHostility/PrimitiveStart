@@ -12,7 +12,7 @@ public class PlatedBoneArrowItem extends ArrowItem {
     public final float damage;
 
     public PlatedBoneArrowItem(float damage) {
-        super(new Properties().tab(CreativeModeTab.TAB_COMBAT));
+        super(new Properties());
         this.damage = damage;
     }
 
