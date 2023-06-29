@@ -5,10 +5,10 @@ issueTrackerURL=""
 
 [[mods]] #mandatory
 modId="primitivestart" #mandatory
-version="1.19.2-1.9.1" #mandatory
+version="1.19.2-1.9.2" #mandatory
 displayName="Primitive Start" #mandatory
 displayURL="https://www.curseforge.com/minecraft/mc-mods/primitive-start"
-logoFile="primitivestart.png" #optional
+logoFile="logo.png" #optional
 authors="ISenseHostility" #optional
 description='''
     Primitive Start aims to make the start of the game a bit more interesting.
