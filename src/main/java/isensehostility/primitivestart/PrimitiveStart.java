@@ -1,5 +1,6 @@
 package isensehostility.primitivestart;
 
+import isensehostility.primitivestart.config.PrimitiveStartConfig;
 import isensehostility.primitivestart.init.BlockInit;
 import isensehostility.primitivestart.init.EntityInit;
 import isensehostility.primitivestart.init.ItemInit;
@@ -14,6 +15,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.ForgeTier;
 import net.minecraftforge.common.TierSortingRegistry;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.loading.FMLPaths;
 
 import java.util.List;
 
@@ -23,6 +25,8 @@ public class PrimitiveStart {
     public static final String MODID = "primitivestart";
 
     public PrimitiveStart() {
+        PrimitiveStartConfig.loadConfig(PrimitiveStartConfig.config, FMLPaths.CONFIGDIR.get().resolve(MODID + "-config.toml").toString());
+
         ItemInit.initialize();
         EntityInit.initialize();
         BlockInit.initialize();
